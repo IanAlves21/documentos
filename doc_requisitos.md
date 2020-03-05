@@ -61,7 +61,7 @@ que forem surgindo novos requisitos.
 #### Propriedades dos requisitos
 
 Para estabelecer a prioridade dos requisitos, nas seções 4 e 5, foram adotadas as
-denominações “essencial”, “importante” e “desejável”.
+denominações "essencial", "importante" e "desejável".
 
   - **Essencial** é o requisito sem o qual o sistema não entra em funcionamento. Requisitos essenciais são requisitos imprescindíveis, que têm que ser implementados impreterivelmente.
   - **Importante** é o requisito sem o qual o sistema entra em funcionamento, mas de forma não satisfatória. Requisitos importantes devem ser implementados, mas, se não forem, o sistema poderá ser implantado e usado mesmo assim.
@@ -146,10 +146,10 @@ O sistema deve ter compatibilidade entre as versões web e mobile.
 
 ### [NF004] Compatibilidade
 
-A versão web deve ser compatível com as últimas versões dos navegadores
+A versão *web* deve ser compatível com as últimas versões dos navegadores
 mais populares.
 
-A versão mobile deve ser compatível com as últimas versões do Android.
+A versão *mobile* deve ser compatível com as últimas versões do Android.
 
 
 ## Modelagem do sistema
