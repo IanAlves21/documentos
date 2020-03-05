@@ -141,7 +141,7 @@ de atualizações de postagens ais recentes.
 
 ### [NF003] Versatilidade
 
-O sistema deve ter compatibilidade entre as versões web e mobile.
+O sistema deve ter compatibilidade entre as versões *web* e *mobile*.
 
 
 ### [NF004] Compatibilidade
