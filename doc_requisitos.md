@@ -39,7 +39,7 @@ funcionais e não funcionais mais detalhadamente. No caso de requisitos
 funcionais, descreve os fluxos de eventos, prioridades, atores, entradas e
 saídas de cada caso de uso a ser implementado.
   - Seção 7 - Glossário: Apresenta definições de termos técnicos e relevantes.
-  
+
 ### Convenções, termos e abreviações
 
 A correta interpretação deste documento exige o conhecimento de algumas
@@ -168,11 +168,26 @@ estrutural.
 
 ## Especificação de requisitos do sistema
 
-| RS001         | Cadastrar usuário                                                                                          |
-| -------------:|:---------------------------------------------------------------------------------------------------------- |
-| Referência    | RF001, RF007                                                                                               |
-| Sumário       | O caso de uso é responsável por logar um usuário no sistema                                                |
+|         RS001 | Cadastrar usuário                                            |
+| ------------: | :----------------------------------------------------------- |
+|    Referência | RF001, RF007                                                 |
+|       Sumário | O caso de uso é responsável por logar um usuário no sistema  |
 | Pré-condições | Ter um login e senha com critérios de segurança mínima como o uso de caracteres especiais e também numeros |
-| Atores        | Usuário                                                                                                    |
-| Descrição     | 1. O usuário faz login no app<br>2. O usuário tem acesso ao sistema                                        |
+|        Atores | Usuário                                                      |
+|     Descrição | 1. O usuário faz login no app<br/>2. O usuário tem acesso ao sistema |
 
+|         RS002 | Fazer publicação                                             |
+| ------------: | :----------------------------------------------------------- |
+|    Referência | RF002                                                        |
+|       Sumário | O caso de uso é responsável por permitir que o usuário logado faça publicação em seu perfil pessoal |
+| Pré-condições | Ter um login e senha com critérios de segurança mínima como o uso de caracteres especiais e também números |
+|        Atores | Usuário                                                      |
+|     Descrição | 1. O usuário faz login no app.<br/>2. O tem acesso a interface do sistema<br/>3. Navega até a aba de postagem<br/>4. Escolhe a foto para publicação<br/>5.Adiciona um comentário inicial<br/>6. Posta a publicação para os outros usuários terem acesso |
+
+|         RS003 | Fazer comentário                                             |
+| ------------: | :----------------------------------------------------------- |
+|    Referência | RF002                                                        |
+|       Sumário | O caso de uso é responsável por permitir que o usuário logado faça publicação de comentário em determinadas postagens em seu perfil pessoal |
+| Pré-condições | Ter um login e senha com critérios de segurança mínima como o uso de caracteres especiais e também números |
+|        Atores | Usuário                                                      |
+|     Descrição | 1. O usuário faz login no app.<br/>2. O tem acesso a interface do sistema<br/>3. Navega até a aba de postagem<br/>4. Seleciona a postagem desejada<br/>5. Abre o ícone de comentário<br/>6. Digita o comentário<br/>7. Posta o comentario |
