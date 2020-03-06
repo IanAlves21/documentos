@@ -167,3 +167,12 @@ seus módulos terão uma estrutura de FEED, POSTAGEM, PERFIL algo nesse estilo
 estrutural.
 
 ## Especificação de requisitos do sistema
+
+| RS001         | Cadastrar usuário                                                                                          |
+| -------------:|:---------------------------------------------------------------------------------------------------------- |
+| Referência    | RF001, RF007                                                                                               |
+| Sumário       | O caso de uso é responsável por logar um usuário no sistema                                                |
+| Pré-condições | Ter um login e senha com critérios de segurança mínima como o uso de caracteres especiais e também numeros |
+| Atores        | Usuário                                                                                                    |
+| Descrição     | 1. O usuário faz login no app<br>2. O usuário tem acesso ao sistema                                        |
+
