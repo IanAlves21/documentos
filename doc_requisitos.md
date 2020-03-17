@@ -124,6 +124,19 @@ Prioridade: **Essencial**
 
 O sistema deve permitir que o usuário efetue o logout da aplicação.
 
+### [RF007] listar postagens
+
+Prioridade: **Essencial**
+
+O sistema deve permitir que o usuário visualize uma lista de postagens mais recentes, separar as listagens que já foram respondidas e as que não foram respondidas. Incluindo busca por uma postagem específica ou várias postagens dentro de um intervalo de tempo.
+
+
+### [RF008] visualizar postagem
+
+Prioridade: **Essencial**
+
+O sistema deve permitir que o usuário visualize uma postagem específica podendo fazer comentários para responder a questão.
+
 
 ## Requisitos não funcionais
 
