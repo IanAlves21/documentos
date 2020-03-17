@@ -128,7 +128,7 @@ O sistema deve permitir que o usuário efetue o logout da aplicação.
 
 Prioridade: **Essencial**
 
-O sistema deve permitir que o usuário visualize uma lista de postagens mais recentes, separar as listagens que já foram respondidas e as que não foram respondidas. Incluindo busca por uma postagem específica ou várias postagens dentro de um intervalo de tempo.
+O sistema deve permitir que o usuário visualize uma lista de postagens mais recentes, separar as postagens que já foram respondidas e as que não foram respondidas. Incluindo a busca por uma postagem específica ou várias postagens dentro de um intervalo de tempo.
 
 
 ### [RF008] visualizar postagem
